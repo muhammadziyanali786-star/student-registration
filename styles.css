@@ -1,0 +1,118 @@
+/* Shared styles for index.html, form.html and thanks.html */
+
+body {
+  margin: 0;
+  background-color: #eef3f8;          /* background color */
+  font-family: Georgia, "Times New Roman", serif;   /* font */
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1d4e89;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* styled heading */
+h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #1d4e89;
+  border-bottom: 3px solid #1d4e89;
+  padding-bottom: 6px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 560px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* round picture */
+.photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1d4e89;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1d4e89;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #153a68;
+}
+
+/* bordered form */
+form {
+  background-color: #ffffff;
+  border: 2px solid #1d4e89;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #9aa5b1;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #1d4e89;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #153a68;
+}
+
+footer {
+  background-color: #1d4e89;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 40px;
+}
